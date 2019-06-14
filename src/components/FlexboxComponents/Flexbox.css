@@ -1,0 +1,86 @@
+.container{
+    border: 5px solid #ffcc5c;
+}
+
+/*1*/
+.horizontal-wrap {
+    display: flex; /* or inline-flex */
+    flex-direction: row; /* row | row-reverse | column | column-reverse; */
+    justify-content: flex-end;/* flex-start | flex-end | center | space-around | space-between | space-evenly */
+    flex-wrap: wrap;
+}
+.size-1{flex-grow: 1}
+.size-2{flex-grow: 2}
+.size-3{flex-grow: 3}
+
+/*2*/
+.horizontal{
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: center;
+}
+.horizontal > .Signin{margin-left: auto;}
+.horizontal > .Home {margin-right: auto;}
+/*.Signin, .Home{flex: 1} flexing anything will result in the entire container being filled*/
+
+
+/*3*/
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*4*/
+.absolute-center {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/*5*/
+.got-search {
+    display: flex;
+    align-content: flex-start;
+}
+.search {
+    flex: 1;
+}
+@media all and (max-width: 600px) {
+    .got-search {flex-wrap: wrap;}
+    .got-search > li {flex: 1 1 50%;}
+    .search > input {text-align: center;}
+}
+@media all and (max-width: 400px) {
+    .got-search > li {flex: 1 1 100%;}
+    .search {order: 1;}
+}
+.container > li {
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: #ffeead;
+    box-sizing: border-box;
+    background-color: #96ceb4;
+    list-style-type: none;
+}
+.search-input {
+    background: #ff6e68;
+    border: 0;
+    width: 100%;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #ffeead;
+    color: #ffeead;
+}
+::placeholder{color: #ffeead;}
+
+.search-input:focus {outline: none;}
+
+.container > li {background-color: #96ceb4;}
+
