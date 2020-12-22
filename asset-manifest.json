@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-self-learned-foundations/static/css/main.c9f52d94.chunk.css",
+    "main.js": "/react-self-learned-foundations/static/js/main.a9871b16.chunk.js",
+    "main.js.map": "/react-self-learned-foundations/static/js/main.a9871b16.chunk.js.map",
+    "runtime~main.js": "/react-self-learned-foundations/static/js/runtime~main.61ba63c9.js",
+    "runtime~main.js.map": "/react-self-learned-foundations/static/js/runtime~main.61ba63c9.js.map",
+    "static/js/2.a8602b5a.chunk.js": "/react-self-learned-foundations/static/js/2.a8602b5a.chunk.js",
+    "static/js/2.a8602b5a.chunk.js.map": "/react-self-learned-foundations/static/js/2.a8602b5a.chunk.js.map",
+    "index.html": "/react-self-learned-foundations/index.html",
+    "precache-manifest.c8de43bec750bbd716b544fb2e555738.js": "/react-self-learned-foundations/precache-manifest.c8de43bec750bbd716b544fb2e555738.js",
+    "service-worker.js": "/react-self-learned-foundations/service-worker.js",
+    "static/css/main.c9f52d94.chunk.css.map": "/react-self-learned-foundations/static/css/main.c9f52d94.chunk.css.map"
+  }
+}
